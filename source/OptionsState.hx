@@ -98,14 +98,14 @@ class OptionsState extends MusicBeatState
                         _virtualpad.alpha = 0;
 
 			switch(options[curSelected]) {
-				case 'Notes':
+				case 'Notes lol':
 				 	openSubState(new NotesSubstate());
-				case 'Keyboard Controls':                                        
+				case 'Keyboard Controls OwO':                                        
 					openSubState(new ControlsSubstate());
-				case 'Mobile Controls':
+				case 'Mobile Controls UWU':
 					MusicBeatState.switchState(new options.CustomControlsState());					
 
-				case 'Preferences':                                        
+				case 'Preferences :v':                                        
 					openSubState(new PreferencesSubstate());									
 			}
 		}
